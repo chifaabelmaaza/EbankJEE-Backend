@@ -32,3 +32,12 @@ __Set Your MySQL username & password in application.properties__
 [application.properties](src/main/resources/application.properties)
 
 __Run the application__
+
+## Conception
+1.	Digramme de classe :
+   
+![image](https://user-images.githubusercontent.com/90484039/175660644-09680cd8-30f9-4b73-b892-1c8d76fe0d6a.png)
+
+
+3.	Pourquoi spring et angular ?
+   
