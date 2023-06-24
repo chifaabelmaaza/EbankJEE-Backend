@@ -33,8 +33,6 @@ public class EbankBackendApplication {
 
         SpringApplication.run(EbankBackendApplication.class, args);
 
-
-
     }
 
     @Bean
