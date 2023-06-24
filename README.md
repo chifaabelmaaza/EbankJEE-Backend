@@ -29,6 +29,6 @@ E_Bank
 
 __Set Your MySQL username & password in application.properties__
 
-[application.properties](../../blob/master/src/main/resources/application.properties)
+[application.properties](src/main/resources/application.properties)
 
 __Run the application__
