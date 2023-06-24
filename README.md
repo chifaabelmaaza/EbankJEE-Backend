@@ -15,7 +15,7 @@ The project is a simulation of an online banking system that allows the manageme
     
 In summary, this project implements an online banking system with the ability to manage bank accounts, perform transactions, and provide client services. The layered architecture and the defined components ensure a structured and efficient development and operation of the application.
 
-## Thing to run the application
+## Getting Started 
 
 __Clone the repository__
 ```
