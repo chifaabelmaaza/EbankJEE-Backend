@@ -34,11 +34,23 @@ __Set Your MySQL username & password in application.properties__
 __Run the application__
 
 ## Conception
-1.	Digramme de classe :
+1.	Class Diagram :
    
 ![image](diagrams/BankingDiagramme.jpg)
 
 
-3.	Pourquoi spring et angular ?
+2.	Architecture Diagram : 
    
 ![image](diagrams/Architecture.JPG)
+
+3.	Why spring ?
+
+Spring is a widely-used Java framework known for its benefits in building robust and scalable applications. It offers features such as dependency injection and inversion of control, which promote modularity and maintainability. Spring MVC provides a structured framework for web application development. It integrates seamlessly with other Java technologies and supports aspect-oriented programming for cross-cutting concerns. Spring enhances testability, has a large community and ecosystem, and simplifies Java development by providing comprehensive features and promoting best practices. Overall, Spring is a versatile framework that facilitates efficient and reliable application development.
+
+## FrontEnd : 
+
+__Here is the link to the frontEnd part, you can clone it using the commande bellow, and make sure to follow the steps mentionned in the Readme__
+```
+git clone https://github.com/chifaabelmaaza/Ebank-Jee-FrontEnd.git
+```
+
