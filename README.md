@@ -61,3 +61,6 @@ __Here is the link to the frontEnd part, you can clone it using the commande bel
 git clone https://github.com/chifaabelmaaza/Ebank-Jee-FrontEnd.git
 ```
 
+> Note: Please refer to the project documentation for detailed instructions on setting up and running the backend application. Feel free to reach out to us with any questions or feedback.
+
+Happy exploring and thank you for your interest in our backend project!
