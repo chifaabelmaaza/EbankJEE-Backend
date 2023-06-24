@@ -50,6 +50,9 @@ Spring is a widely-used Java framework known for its benefits in building robust
 ## FrontEnd : 
 
 __Here is the link to the frontEnd part, you can clone it using the commande bellow, and make sure to follow the steps mentionned in the Readme__
+
+[FrontEnd](https://github.com/chifaabelmaaza/Ebank-Jee-FrontEnd.git)
+
 ```
 git clone https://github.com/chifaabelmaaza/Ebank-Jee-FrontEnd.git
 ```
