@@ -1,35 +1,43 @@
-# Mon Projet
+# Online-banking-angular-springboot-mysql
 
-## Description
-Ce projet est une application de gestion de comptes bancaires réalisée avec Spring Boot et Angular. Il permet aux utilisateurs de gérer leurs comptes, effectuer des transactions et suivre leurs historiques de transactions.
+Online-Bank
 
-## Installation
-1. Clonez le dépôt du projet : `git clone https://github.com/MarshelD/E_Bank`
-2. Accédez au dossier backend : `cd backend`
-3. Importez le projet backend dans votre IDE préféré (par exemple, Eclipse ou IntelliJ)
-4. Exécutez le projet backend en cliquant sur le bouton "Run" de votre IDE
-
-> Note: Assurez-vous d'avoir configuré correctement votre environnement Java et Maven pour exécuter un projet Spring Boot.
-
-5. Accédez au dossier frontend : `cd ../frontend`
-6. Installez les dépendances : `npm install`
-7. Lancez l'application frontend : `npm start`
-
-> Note: Assurez-vous d'avoir Node.js et Angular CLI installés sur votre machine pour exécuter l'application frontend.
-
-## Structure du Projet
-Le projet est divisé en deux parties : le backend développé avec Spring Boot et le frontend développé avec Angular. Cette architecture permet une séparation claire des responsabilités et favorise la scalabilité et la maintenabilité de l'application.
-
-## Diagrammes
-- [Diagramme de Classe](diagrams/class_diagram.jpg)
-- [Diagramme d'Architecture](diagrams/architecture_diagram.jpg)
+Spring Boot/Spring Data/Spring Security/Hibernate/MySQL/REST
 
 
+The project is a simulation of an online banking system that allows the management of bank accounts. Each account is associated with a client and can be categorized as either Current or Savings. Various operations such as debit and credit can be performed on each account. The application follows a layered architecture consisting of the following components:
 
-## Contributions
-Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce projet, veuillez consulter le fichier CONTRIBUTING.md pour obtenir des instructions détaillées. Nous apprécions tous les types de contributions, qu'il s'agisse de corrections de bugs, d'améliorations de fonctionnalités ou de suggestions d'amélioration de l'expérience utilisateur.
+  - DAO layer: This layer includes JPA entities and repositories, which handle the persistence of data in the database.
+  - Service layer: The service layer defines the core operations of the application. These operations include adding accounts and clients, performing debit and credit transactions, executing transfers between accounts, and       providing the ability to consult account information.
+  - DTO layer: The DTO (Data Transfer Object) layer is responsible for defining data transfer objects that facilitate the exchange of information between different layers of the application.
+  - Mappers: Mappers are used to convert data between DTOs and entities, ensuring seamless communication between layers.
+  - Web layer: The web layer consists of REST controllers that expose the functionality of the application through RESTful APIs, allowing clients to interact with the system.
+    
+In summary, this project implements an online banking system with the ability to manage bank accounts, perform transactions, and provide client services. The layered architecture and the defined components ensure a structured and efficient development and operation of the application.
 
-## License
-Ce projet est sous licence MIT, ce qui signifie que vous pouvez l'utiliser, le modifier et le distribuer librement. Pour plus d'informations, veuillez consulter le fichier LICENSE.
+## Thing to run the application
 
-Nous espérons que vous apprécierez notre application de gestion de comptes bancaires. N'hésitez pas à nous contacter si vous avez des questions ou des commentaires. Bonne utilisation !
+__Clone the repository__
+```
+git clone https://github.com/chifaabelmaaza/EbankJEE-Backend 
+```
+
+__Go the folder__
+```
+E_Bank
+```
+
+__Set Your MySQL username & password in application.properties__
+
+[application.properties](src/main/resources/application.properties)
+
+__Run the application__
+
+## Conception
+1.	Digramme de classe :
+   
+![image](https://user-images.githubusercontent.com/90484039/175660644-09680cd8-30f9-4b73-b892-1c8d76fe0d6a.png)
+
+
+3.	Pourquoi spring et angular ?
+   
