@@ -32,9 +32,10 @@ __Set Your MySQL username & password in application.properties__
 [application.properties](src/main/resources/application.properties)
 
 __Run the application__
-Exécutez le projet backend en cliquant sur le bouton "Run" de votre IDE (par exemple, Eclipse ou IntelliJ)
 
-> Note: Assurez-vous d'avoir configuré correctement votre environnement Java et Maven pour exécuter un projet Spring Boot.
+Run the backend project by clicking on the "Run" button in your IDE (e.g., Eclipse or IntelliJ).
+
+> Note:  Make sure you have properly set up your Java and Maven environment to run a Spring Boot project.
 
 ## Conception
 1.	Class Diagram :
