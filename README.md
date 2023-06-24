@@ -24,7 +24,7 @@ git clone https://github.com/chifaabelmaaza/EbankJEE-Backend
 
 __Go the folder__
 ```
-E_Bank
+EbankJEE-Backend
 ```
 
 __Set Your MySQL username & password in application.properties__
@@ -36,8 +36,9 @@ __Run the application__
 ## Conception
 1.	Digramme de classe :
    
-![image](https://user-images.githubusercontent.com/90484039/175660644-09680cd8-30f9-4b73-b892-1c8d76fe0d6a.png)
+![image](diagrams/BankingDiagramme.jpg)
 
 
 3.	Pourquoi spring et angular ?
    
+![image](diagrams/Architecture.JPG)
